@@ -1,0 +1,9 @@
+.logo-panel__logo{
+    padding-top: 28px;
+}
+
+@media screen and (max-width:320px) {
+    .logo-panel__logo {
+        padding-top: 16px;
+    }
+}

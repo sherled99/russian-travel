@@ -1,0 +1,10 @@
+.logo-panel__container{
+    justify-self: right;
+    padding-top: 46px;
+}
+
+@media screen and (max-width:320px) {
+    .logo-panel__container {
+        padding-top: 30px;
+    }
+}

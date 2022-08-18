@@ -1,0 +1,15 @@
+.cover__container{
+    background: #2A2C2F;
+    opacity: 0.3;
+    width: 100%;
+    min-height: inherit;
+    position: absolute;
+    transition: 2s;
+    
+}
+
+.cover__container:hover{
+    background: #2A2C2F;
+    transition: 2s;
+    opacity: 0.8;
+}
