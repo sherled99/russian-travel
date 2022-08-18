@@ -1,10 +1,11 @@
-.logo-panel__container{
+.header__container{
+    display: flex;
     justify-self: right;
     padding-top: 46px;
 }
 
 @media screen and (max-width:320px) {
-    .logo-panel__container {
+    .header__container {
         padding-top: 30px;
     }
 }
