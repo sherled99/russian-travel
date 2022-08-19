@@ -12,20 +12,23 @@
     .lead__banner-description {
         max-width: 100%;
         margin: 0 auto;
-        width: 984px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 944px) {
     .lead__banner-description {
-        padding-left: 48px;
-        margin: 0;
-        width: max-content;
+        padding-left: 30px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__banner-description {
         padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__banner-description {
+        padding-left: 16px;
     }
 }

@@ -4,12 +4,6 @@
     line-height: 163%;
     color: #fff;
     margin: 0;
-    width: 690px;
+    max-width: 690px;
     padding-bottom: 33px;
-}
-
-@media screen and (max-width: 768px) {
-    .intro__description {
-        width: 100%;
-    }
 }
