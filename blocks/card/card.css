@@ -20,8 +20,8 @@
 
 @media screen and (max-width:768px) {
     .card{
-        grid-template-columns: 340px 1fr;
-        column-gap: 28px;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 19px;
         row-gap: 45px;
         padding-bottom: 73px;
         padding-left: 0;

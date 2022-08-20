@@ -4,6 +4,7 @@
     max-width: 984px;
     margin: 0 auto;
     padding-bottom: 92px;
+    box-sizing: content-box;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,16 +24,10 @@
     }
 }
 
-@media screen and (max-width: 742px) {
-    .intro {
-        max-width: max-content;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-}
-
 @media screen and (max-width: 425px) {
     .intro {
-        padding-bottom: 64px;
+        padding-bottom: 60px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
