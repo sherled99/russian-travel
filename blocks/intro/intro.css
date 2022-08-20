@@ -19,6 +19,7 @@
         max-width: 720px;
         margin: 0 auto;
         padding-left: 0;
+        padding-bottom: 88px;
     }
 }
 
@@ -27,5 +28,11 @@
         max-width: max-content;
         padding-left: 16px;
         padding-right: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        padding-bottom: 64px;
     }
 }

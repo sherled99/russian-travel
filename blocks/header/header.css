@@ -3,12 +3,12 @@
     grid-template-columns: 1fr 1fr;
     padding-right:48px;
     padding-left:48px;
-    padding-bottom: 64px;
+    padding-bottom: 56px;
 }
 
 @media screen and (max-width: 1024px) {
     .header {
-        padding-bottom: 56px;
+        padding-bottom: 48px;
     }
 }
 
@@ -21,7 +21,6 @@
 
 @media screen and (max-width: 425px) {
     .header {
-        padding-bottom: 40px;
         padding-right:16px;
         padding-left:16px;
     }
