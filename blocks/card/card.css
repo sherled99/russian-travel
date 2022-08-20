@@ -18,15 +18,6 @@
     }
 }
 
-@media screen and (max-width:950px) {
-    .card{
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        padding-left: 24px;
-        padding-right: 24px;
-        
-    }
-}
-
 @media screen and (max-width:768px) {
     .card{
         grid-template-columns: 340px 1fr;
@@ -39,26 +30,9 @@
     }
 }
 
-@media screen and (max-width:730px) {
-    .card{
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        padding-left: 16px;
-        padding-right: 16px;
-        
-    }
-}
-
-@media screen and (max-width:674px) {
-    .card{
-        margin: 0 auto;
-        justify-items: center;
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
 @media screen and (max-width:425px) {
     .card{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 32px;
         justify-items: stretch;
         padding-bottom: 53px;;
