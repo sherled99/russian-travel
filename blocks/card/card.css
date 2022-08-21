@@ -24,8 +24,9 @@
         column-gap: 19px;
         row-gap: 45px;
         padding-bottom: 73px;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 24px;
+        padding-right: 24px;
+        justify-content: end;
         
     }
 }
@@ -33,8 +34,11 @@
 @media screen and (max-width:425px) {
     .card{
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        justify-content:stretch;
         gap: 32px;
         justify-items: stretch;
         padding-bottom: 53px;;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
